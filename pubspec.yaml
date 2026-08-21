@@ -1,0 +1,51 @@
+name: remote_access
+description: "Production-quality remote Android device access application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # HTTP client
+  dio: ^5.7.0
+
+  # Secure storage for JWT tokens
+  flutter_secure_storage: ^9.2.2
+
+  # Persistent storage for Device ID
+  shared_preferences: ^2.3.2
+
+  # Network connectivity
+  connectivity_plus: ^6.1.0
+
+  # WebSocket
+  web_socket_channel: ^3.0.1
+
+  # WebRTC for Real-Time Screen Streaming & Data Channel
+  flutter_webrtc: ^0.12.5
+
+  # Clipboard
+  # (dart:ui ClipboardData — no extra package needed)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.3
+  build_runner: ^2.4.13
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true

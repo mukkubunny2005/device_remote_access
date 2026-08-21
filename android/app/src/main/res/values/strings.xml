@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Remote Access uses the Accessibility Service to inject touch gestures and key events on your device when you explicitly allow a remote control session. Your screen is never accessed without your consent.</string>
+</resources>
